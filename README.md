@@ -1,14 +1,14 @@
-# PixelOS
+# haneUI
 
 ## Getting Started
 
-To get started with the PixelOS sources, you'll need to get
+To get started with the haneUI sources, you'll need to get
 familiar with [Git and Repo](https://source.android.com/setup/build/downloading).
 
 To initialize your local repository, use command:
 
 ```bash
-repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fifteen --git-lfs
+repo init -u https://github.com/hane-ui/manifest.git -b fifteen --git-lfs
 ```
 
 Then sync up:
