@@ -5,6 +5,10 @@
       fetch="https://github.com/PixelOS-AOSP"
            revision="refs/heads/fifteen" />
 
+  <remote  name="haneui"
+      fetch="https://github.com/hane-ui"
+           revision="refs/heads/fifteen" />
+
   <remote  name="PixelOS-Gitlab"
            fetch="https://gitlab.com/PixelOS-AOSP"
            revision="refs/heads/fifteen" />
@@ -27,7 +31,7 @@
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="PixelOS" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="PixelOS" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="PixelOS" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="PixelOS" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="haneui" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk" remote="PixelOS" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="PixelOS" />
   <project path="system/core" name="system_core" groups="pdk" remote="PixelOS" />
@@ -37,8 +41,8 @@
   <project path="packages/apps/ColumbusService" name="packages_apps_ColumbusService" remote="PixelOS" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="PixelOS" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixelOS" />
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="PixelOS" />
-  <project path="vendor/aosp" name="vendor_aosp" remote="PixelOS" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="haneui" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="haneui" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
   <project path="vendor/gms" name="vendor_gms" clone-depth="1" remote="PixelOS-Gitlab" />
   <project path="vendor/google/overlays/ThemeIcons" name="vendor_google_overlays_ThemeIcons" remote="PixelOS" />
